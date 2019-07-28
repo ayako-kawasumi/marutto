@@ -1,0 +1,59 @@
+button{
+  background-color: #00204a;
+  color: #fff8dc;
+}
+.header{
+  background-color: #182952
+}
+.header>button{
+  background-color: inherit;
+}
+.header>.normal:hover{
+  color: #ffffff;
+}
+.header>.warn:hover{
+  color: palevioletred
+}
+.can-sort{
+  color: palevioletred
+}
+.left{
+  background-color: #2b3595
+}
+.category{
+  background-color: #4d58c1;
+  border: 2px solid #4d58c1;
+}
+.category:nth-child(even){
+  background-color: #3b46af;
+  border: 2px solid #3b46af;
+}
+.category>input{
+  color: #c0c0c0;
+}
+.is-selected{
+  color: #e14594 !important
+}
+.while-editing{
+  border: 2px solid palevioletred !important
+}
+.right{
+  background-color: #1c1852
+}
+.item{
+  background-color: #363179;
+  color: #fff8dc;
+}
+.item:nth-child(even){
+  background-color: #2c2865
+}
+.item>.name:hover{
+  color: #e14594
+}
+div::-webkit-scrollbar-track{
+  background: #323b9c;
+  border: solid 1px #323b9c;
+}
+div::-webkit-scrollbar-thumb{
+  background: #26282b;
+}

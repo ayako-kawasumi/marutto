@@ -1,0 +1,36 @@
+.cover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5)
+}
+button{
+  border: none;
+  border-radius: 4px;
+  padding: 3px 8px;
+  outline: none;
+}
+.category,.item,button{
+  cursor: pointer;
+}
+.category:hover,button:hover{
+  opacity: 0.8;
+}
+.trans-enter-active,.trans-leave-active{
+  transition: all 0.3s ease;
+}
+.trans-enter,.trans-leave-to{
+  opacity: 0;
+}
+div::-webkit-scrollbar{
+  width: 3px;
+}
+div::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  box-shadow: none;
+}
